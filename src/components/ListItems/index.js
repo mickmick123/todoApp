@@ -40,11 +40,5 @@ export default function ListItems({
       onLeftActionStatusChange={onLeftActionStatusChange}
       onRightActionStatusChange={onRightActionStatusChange}
     />
-    // :
-    // <FlatList
-    //     data={listData}
-    //     renderItem={(item) =>  <VisibleItem data={item} isCompleted={true}/>}
-    //     keyExtractor={item => item.key}
-    // />
   );
 }
